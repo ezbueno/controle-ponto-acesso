@@ -1,6 +1,6 @@
 # Controle de ponto de acesso
 
-* Projeto construído durante o bootcamp do Santader em parceria com a Digital Innovation One
+* Projeto construído durante o bootcamp do Santander em parceria com a Digital Innovation One
 
 # Tecnologias
 * Java 11
