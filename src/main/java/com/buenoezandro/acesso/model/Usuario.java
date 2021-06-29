@@ -10,6 +10,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 
+import org.hibernate.envers.Audited;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.EqualsAndHashCode;
@@ -24,6 +26,7 @@ import lombok.Setter;
 @EqualsAndHashCode
 @Builder
 @Entity
+@Audited
 public class Usuario implements Serializable {
 
 	private static final long serialVersionUID = 1L;
